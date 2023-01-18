@@ -10,7 +10,7 @@ def main():
 
     # Build VBox
     os.chdir(path_vbox_dir)
-    execute_batch_x32_inst('call env.bat\nkmk')
+    execute_batch_x32_inst('call env.bat\nkmk\nkmk packing')
     
     # Load drivers
     os.chdir(f'{path_vbox_dir}/out/win.amd64/release/bin')

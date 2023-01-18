@@ -9,7 +9,7 @@ VBOX_SIGNING_MODE=test
 
 
 VBOX_ZIP="C:\Program Files (x86)\GnuWin32\bin\zip.exe"
-VBOX_PATH_WIX=H:\VBoxBuild\wix311
+VBOX_PATH_WIX="C:\VBoxBuild\wix311"
 VBOX_PATH_WISUMINFO="C:\Program Files\Microsoft SDKs\Windows\v7.1\Samples\sysmgmt\msi\scripts\WiSumInf.vbs"
 VBOX_PATH_MSITRAN="C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\MsiTran.exe"
 VBOX_PATH_MSIDB="C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\MsiDb.exe"
@@ -18,5 +18,7 @@ VBOX_WITH_QT_PAYLOAD=1
 VBOX_WITH_QTGUI_V5=1
 VBOX_GSOAP_INSTALLED=1
 VBOX_WITH_LIBCURL=1
-VBOX_PATH_GSOAP=H:\VBoxBuild\gsoap-2.8\gsoap
+VBOX_PATH_GSOAP="C:\VBoxBuild\gsoap-2.8\gsoap"
+VBOX_WITH_WEBSERVICES=
 VBOX_WITH_COMBINED_PACKAGE=1
+PATH_TOOL_MINGWW64="C:\VBoxBuild\MinGW\mingw64"
