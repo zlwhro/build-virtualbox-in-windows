@@ -7,11 +7,8 @@ Based on [this repository](https://github.com/st424204/build-virtualbox-in-windo
 
 * [Visual Studio 2019 Professional](https://learn.microsoft.com/en-us/visualstudio/releases/2019/release-notes)
 * Windows SDK 11 & WDK 11
-    * https://go.microsoft.com/fwlink/?linkid=2166460
-    * https://go.microsoft.com/fwlink/?linkid=2166289
-    * See also: https://docs.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk
-    * Basically you can use Visual Stuido Installer to install the latest SDK and WDK. **Notice that SDK and WDK's version should be the same.**  
-    * Currently I'm using version `10.0.22621.0`.
+    * winget install --source winget --exact --id Microsoft.WindowsSDK.10.0.26100
+    * winget install --source winget --exact --id Microsoft.WindowsWDK.10.0.26100
     
 * [WinSDK 7.1](https://www.microsoft.com/en-us/download/details.aspx?id=8279)
     * Needed for `kmk packing`
