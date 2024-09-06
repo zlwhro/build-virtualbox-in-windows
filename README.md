@@ -24,7 +24,7 @@ Based on [this repository](https://github.com/st424204/build-virtualbox-in-windo
     * Download `wix311-binaries.zip`
     * Extract the file into `C:\VBoxBuild\wix311`
 
-* [WinDDK 7.1](https://www.microsoft.com/en-us/download/details.aspx?displaylang=en&id=11800)
+* [WinDDK 7.1]((https://www.microsoft.com/en-us/download/details.aspx?id=11800&msockid=0fe97f29a5756f292a8b6bdba45c6e23))
 * [Yasm](https://yasm.tortall.net/Download.html)
     * Download `Win64.exe`, rename it to `yasm.exe`. Set the PATH env so `yasm.exe` can be found in PATH.
 * Qt
