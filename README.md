@@ -22,7 +22,7 @@ Based on [this repository](https://github.com/st424204/build-virtualbox-in-windo
 * [WIX3](https://github.com/wixtoolset/wix3/releases)
     * Needed for `kmk packing`
     * Download `wix311-binaries.zip`
-    * Extract the file into `C:\VBoxBuild\wix311`
+    * Extract the file into `C:\VBoxBuild\wix314`
 
 * [WinDDK 7.1](https://www.microsoft.com/en-us/download/details.aspx?id=11800&msockid=0fe97f29a5756f292a8b6bdba45c6e23)
 * [Yasm](https://yasm.tortall.net/Download.html)
